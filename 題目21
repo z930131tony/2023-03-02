@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    float a [10];
+    float max=0.0, min=0.0;
+    for (int i ;i<10;i++){
+        cin >> a[i];
+        if (a[i]>max)max = a[i];
+        if (a[i]<min)min = a[i];
+    }
+    cout << "maximun" << fixed << setprecision(2) << max << endl;
+    cout << "minimun" << fixed << setprecision(2) << max << endl;
+    return 0;
+}
