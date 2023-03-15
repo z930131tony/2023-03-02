@@ -25,3 +25,4 @@ int main()
 
 	return 0;
 } 
+將input初始值設為0，input/3，如果商數為0或4(餘數忽略)，則為Winter，商數為1，則為Spring，商數為2，則為Summer，商數為3，則為Autumn。
