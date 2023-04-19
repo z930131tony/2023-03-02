@@ -15,26 +15,16 @@
 第一個字串出現在第二個字串中的次數。
 
 範例：
-
-Sample Input
-
-Sample Output
-
-aa
-
-aaa123bbab
-
+Sample Input Sample Output
+aa /aaa123bbab
+2 
+baba / 12b3bbababa12
 2
+baa /ababaabbbb
+1
+##說明
 
-baba
-
-12b3bbababa12
-
-2
-
-baa
-
-ababaabbbb
+給予兩個英文字串，計算出第一個字串出現在第二個字串中的次數。
 
 1
 ## 程式
